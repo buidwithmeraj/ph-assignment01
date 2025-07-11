@@ -161,7 +161,7 @@ main {
     margin-top: 130px;
     text-align: center;
     background-color: white;
-    padding: 15px;
+    padding: 30px;
     border-radius: 10px;
 }
 
@@ -180,4 +180,47 @@ main {
 
 .focus-image {
     border-radius: 50px;
+}
+
+.contact-section {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.contact-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 97px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+input[type="email"], input[type="text"], textarea {
+    width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.submit {
+    padding: 25px;
+}
+
+::placeholder {
+    color: #8D8E98;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+label {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
 }

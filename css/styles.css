@@ -111,3 +111,73 @@ main {
     font-size: 20px;
     color: #8D8E98;
 }
+
+.feedback-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.feedbacks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedback {
+    background-color: #fff;
+    border-radius: 10px;
+    gap: 20px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.star {
+    margin-right: 5px;
+}
+.feedback h3 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.feedback-user {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: #8D8E98;
+    flex-wrap: wrap;
+}
+.margin-right {
+    margin-right: 20px;
+}
+
+.focus-section {
+    margin-top: 130px;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.focus-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #8D8E98;
+}
+
+.focus-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.focus-image {
+    border-radius: 50px;
+}

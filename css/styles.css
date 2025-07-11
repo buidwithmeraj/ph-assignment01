@@ -27,7 +27,7 @@ nav {
     background-color: #4D47FF;
     font-family: "Raleway", sans-serif;
     color: white;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 15px 40px;
     font-size: 16px;
     font-weight: bold;
@@ -98,6 +98,7 @@ main {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 38px;
+    margin-bottom: 30px;
 }
 .stats-item-title {
     font-family: "Inter", sans-serif;
@@ -126,12 +127,12 @@ main {
     align-items: center;
 }
 .feedback {
-    background-color: #fff;
+    background-color: #FAFCFF;
     border-radius: 10px;
     gap: 20px;
     padding: 20px;
     width: 30%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
 }
 .star {
     margin-right: 5px;
@@ -203,7 +204,7 @@ main {
 
 input[type="email"], input[type="text"], textarea {
     width: 100%;
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 16px;
@@ -223,4 +224,35 @@ label {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     font-weight: normal;
+}
+
+footer {
+    background-color: #fff;
+    padding: 50px 150px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+
+.footer-logo {
+    font-family: 'Inter', sans-serif;
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: 900;
+}
+.footer-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #8987A1;
+}
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    font-family: 'Inter', sans-serif;
+    color: #8987A1;
+    text-decoration: none;
 }

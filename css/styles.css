@@ -35,6 +35,12 @@ nav {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #ff5a28;
+    color: #ffffff;
+    box-shadow: #8987A1 0px 0px 10px;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
